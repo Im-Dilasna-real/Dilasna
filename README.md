@@ -1,6 +1,6 @@
-#  Hirun Lakshan Web ☘️ 
+#  Dilasna Lithmantha Web ☘️ 
 ```
-💘 Web Page For Hirun Lakshan
+💘 Web Page For Dilasna Lithmantha
 
 ```
 

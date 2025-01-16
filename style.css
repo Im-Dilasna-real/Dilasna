@@ -846,20 +846,3 @@ footer span a:hover{
     margin-top: 30px;
 }
 
-.about .about-content .column {
-    flex: 1;
-    padding: 10px;
-}
-
-.about .about-content .text {
-    font-size: 18px;
-    font-weight: normal;
-    color: #555;
-    margin-bottom: 15px;
-}
-
-.about .about-content img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}

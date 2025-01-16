@@ -846,3 +846,40 @@ footer span a:hover{
     margin-top: 30px;
 }
 
+/* General container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Content alignment */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Image styling */
+.image {
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+/* Text styling */
+.text {
+    flex: 1 1 400px;
+    font-size: 16px;
+    line-height: 1.5;
+}

@@ -962,3 +962,73 @@ nav a:hover {
 .about-me ul li {
     margin-bottom: 5px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #007bff, #f9f9f9);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 20px; /* Adjusted for larger appearance */
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .menu li a:hover {
+    color: #ffc107;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.about-me h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-me ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    width: 100%;
+    text-align: left;
+}
+
+.about-me ul li {
+    margin-bottom: 10px;
+}
+
+.about-me ul li strong {
+    color: #007bff;
+}

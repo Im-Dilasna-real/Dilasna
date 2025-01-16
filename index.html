@@ -52,7 +52,16 @@
    <div class="container">
     <h1>About Me</h1>
     <div class="content">
-       <div class="about-me">
+     <div class="navigation-bar">
+    <nav>
+        <a href="#" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#contact" class="nav-link">Contact Me</a>
+        <a href="#source" class="nav-link">Source Code</a>
+    </nav>
+</div>
+
+<div class="about-me">
     <img src="images/20230206_064515.jpg" alt="Dilasa Profile">
     <h2>About Me</h2>
     <ul>
@@ -73,6 +82,31 @@
         margin: 0;
         padding: 0;
         color: #333;
+    }
+
+    .navigation-bar {
+        background-color: #007bff;
+        padding: 15px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        font-size: 18px; /* Adjusted size */
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        font-size: 20px; /* Increased font size */
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+        color: #ffc107;
     }
 
     .about-me {

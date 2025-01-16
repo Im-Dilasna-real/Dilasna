@@ -962,26 +962,3 @@ nav a:hover {
 .about-me ul li {
     margin-bottom: 5px;
 }
-nav {
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #ffc107;
-}
-body {
-    background: linear-gradient(to bottom, #007bff, #f9f9f9);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
